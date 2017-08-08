@@ -7,7 +7,7 @@
 				$con = mysqli_connect("", "root", "quaintsql007");
 				
 				/* Datenbank auswaehlen */
-				mysqli_select_db($con, "thorben");
+				mysqli_select_db($con, "displaypi");
 				
 				$result = mysqli_query($con, 'SELECT* FROM displaypi WHERE id > "'. $_GET['id'] .'" LIMIT 1');
 				
