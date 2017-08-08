@@ -4,7 +4,7 @@
 		<title>index</title>
 			<?php
 				/* Verbindung aufbauen */
-				$con = mysqli_connect("", "root", "qxMYSQL007");
+				$con = mysqli_connect("", "root", "quaintsql007");
 				
 				/* Datenbank auswaehlen */
 				mysqli_select_db($con, "thorben");
