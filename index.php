@@ -17,9 +17,9 @@
 						echo "<meta  http-equiv='refresh' content='".$row['dauer']."; url=./index.php?id=".$row['id']."'>";
 						echo "</head><body style='padding: 0; margin: 0; background-color: #000000; overflow: hidden;'>";
 						if($row["typ"] == "image") {
-							echo "<img width='100%' height='100%' src='".$row['url']."' />";
+							echo "<img  height='100%' src='".$row['url']."' />";
 						} elseif($row["typ"] == "video") {
-							echo "<video autoplay width='100%' height='100%'>
+							echo "<video autoplay  height='100%'>
 									 <source src='".$row['url']."' type='video/mp4'>
 								 </video> ";
 						} else {
