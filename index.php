@@ -19,7 +19,7 @@
 						if($row["typ"] == "image") {
 							echo "<img  height='100%' src='".$row['url']."' />";
 						} elseif($row["typ"] == "video") {
-							echo "<video autoplay  height='100%'>
+							echo "<video autoplay width='100%' height='100%'>
 									 <source src='".$row['url']."' type='video/mp4'>
 								 </video> ";
 						} else {
